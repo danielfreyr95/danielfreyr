@@ -1,0 +1,135 @@
+body {
+    font: 12px/18px Arial, sans-serif;
+}
+
+/* Header
+-----------------------------------------------------------------------------*/
+#header {
+    background: red;
+    text-align: center;
+}
+
+
+/* Middle
+-----------------------------------------------------------------------------*/
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.redblock {
+    background-color: red;
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    padding-left: 3%
+}
+
+/* Footer
+-----------------------------------------------------------------------------*/
+#footer {
+    background: black;
+    color: white;
+}
+
+@media screen and (min-width: 320px) {
+
+
+    p {
+        margin-bottom: 3%
+    }
+}
+
+@media screen and (min-width: 480px) {
+
+
+    #header img {
+        width: 90%
+    }
+
+    h2 {
+        height: 11%;
+    }
+
+    p {
+        font-size: 1.25em;
+        font-style: italic;
+    }
+
+    #flex {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #s1 {
+        width: 49%;
+        margin-right: 1%;
+    }
+
+    #s2 {
+        width: 50%;
+    }
+
+    #s3 {
+        width: 100%;
+        margin-top: 1%;
+    }
+
+    footer {
+        margin-top: 40%
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+
+    #header img {
+        width: 50%;
+    }
+
+    .redblock {
+        height: 10%
+    }
+
+    h1 {
+        font-size: 1.75em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    .redblock {
+        padding: 1.5em 0;
+    }
+
+    #s1 {
+        width: 33%;
+    }
+
+    #s2 {
+        width: 32%;
+        margin-right: 1%
+    }
+
+    #s3 {
+        width: 33%;
+        margin-top: 0;
+    }
+}
